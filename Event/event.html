@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        header{
+            height: 200px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        section{
+            height: 250px;
+            background-color: rgb(106, 244, 78);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        .container{
+            height: 200px;
+            background-color: rgb(186, 117, 250);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        .box{
+            height: 150px;
+            width: 250px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <header onmouseover="changeColor()" onmouseleave="changeColor2()">
+        <h1>Event in js</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        <button onclick="wish()">click me</button>
+
+        <a href="./event2.html">go to event2 file</a>
+    </header>
+
+    <section>
+
+        <h2>EVent Handler</h2>
+        <button class="btn1">click me</button>
+        <button class="btn2" ondblclick="btn2()">double click me</button>
+    </section>
+
+    <div class="container">
+        <div class="box" id="b1">
+            <h1>hello everyone</h1>
+            <p>i am paragraph</p>
+        </div>
+        <div class="box" id="b2"></div>
+    </div>
+
+    <script src="./event.js"></script>
+
+</body>
+</html>

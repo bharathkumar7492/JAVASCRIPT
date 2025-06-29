@@ -1,0 +1,81 @@
+
+    *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+    }
+    nav{
+     height: 80px;
+     background-color: antiquewhite;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+    nav > ul{
+     display: flex;
+     gap:15px;
+     list-style: none;
+    }
+    nav > ul > li{
+     font-size: 19px;
+     font-weight: bold;
+     
+    }
+    section{
+     display: flex;
+     height: 275px;
+     background-color: bisque;
+     justify-content: space-around;
+     align-items: center;
+    }
+    section > .card{
+     height: 245px;
+     width: 300px;
+     background-color: white;
+     padding: 10px 20px;
+     border-radius: 16px;
+     box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+    }
+    .right > .btn{
+      padding: 10px 20px;
+      border: none;
+      background-color: orange;
+      border-radius: 10px;
+      font-size: 18px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    article{
+     height: 350px;
+     background-color: #212120;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    }
+    article > .box{
+     height: 275px;
+     width: 300px;
+     background-color: white;
+     border-radius: 20px;
+     padding: 10px 20px;
+    }
+ article > .dark{
+      background-color: green;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:15px;
+      color:white;
+    }
+    .circle{
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     background-color: white;
+     border: 3px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
