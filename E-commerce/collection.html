@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZYORA</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+
+     <link rel="stylesheet" href="./style.css">
+
+     <!-- Font awsome icon -->
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <h1>ZYORA</h1>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collection.html">Collections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="menu-toggle" onclick="showNavbar()">
+            <!-- font awsome icon -->
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+<!-- Side navbar -->
+
+    <div class="side-navbar" >
+        <p onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        
+        <ul>
+            <li class="side-nav-link"><a href="index.html">Home</a></li>
+            <li class="side-nav-link"><a href="collection.html">Collections</a></li>
+            <li class="side-nav-link"><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Product -->
+
+    <div class="product-section">
+        
+        <form action="" class="product-search">
+            <input type="text" id="search" placeholder="Search for products...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="collection-links">
+            <a href="#mens">Men's</a>
+            <a href="#womens">Women's</a>
+            <a href="#combo">Combo dress</a>
+        </div>
+        
+        
+        <div class="product-container" id="products">
+            
+            <span class="title-section" id="mens">
+                <h2>Men's Wear</h2>
+            </span>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9LF547-2q2xa0XooSutXr2Qwkt004EqzbGA&s" alt="" height="185px" width="300px">
+                <p>Casual Shirt</p>
+
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzsTbsth5nm7Q0TPKD8ZYjQesf9oVyVMRyow&s" alt="" height="185px">
+                <p>Black T-Shirt</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThCMhlhXRA93LiC0JY2s5Fy8vy3885zdn7Ew&s" alt="" height="185px" width="300px">
+                <p>Ethnic Wear</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT6DU7kTij5Jp8gHq8z4SvM-wZNU7PARNc3A&s" alt="">
+                <p>Polo Style</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MT6mLezoFsBI-WXNgbT8kvzByqbuq2Nngg&s" alt="" height="180px">
+                <p>Court</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEzmEDQ0Ys5WvupSdDi2wmZUxhHpD4ADCAXA&s" alt="">
+                <p>Black Suit</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkG_L59d0aqnQegMy7hkAM7Pzlq7DEnJTTSA&s" alt="" height="185px" width="180px">
+                <p>Korean Style</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBgVFXDiIDKBxZw4FzEJ6v0t51xvhftYw_ZaUOlhqQRSeYS4vw195yLo54sE0bPDW6T_g&usqp=CAU" alt="">
+                <p>Grey Suit</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1776498855/photo/indoor-portrait-of-a-man-in-white-dress.jpg?s=612x612&w=0&k=20&c=OlZ47C4P1X2m-8meTN5CbhIpOVEn62tJ5r1g5cK0zNA=" alt="" height="185px">
+                <p>White T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1193690015/photo/handsome-gen-z-indian-arabic-man-walking-through-walkway-wearing-white-t-shirt-and-grey.jpg?s=612x612&w=0&k=20&c=CmOG6oyy7Hojgyeo5T6jhjCprfzKh4MHm_j5hszixqw=" alt="" height="185px">
+                <p>Casual Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/2220777883/photo/traditional-yellow-indian-turban-with-embroidered-mojari-groom-wedding-accessories-display.jpg?s=612x612&w=0&k=20&c=vK4ir8JNaYzIPgfc_6upGTsl60j30ls5tC23Z5DFhVE=" alt="" height="185px">
+                <p>Yellow Turban</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/2220777887/photo/green-color-elegant-embroidered-mojari-jutti-for-men-traditional-indian-footwear-on-wooden.jpg?s=612x612&w=0&k=20&c=ma3zAA9xrO7rEkQLSRw2ftXDiYAJoL4dItJC1lv8gSk=" alt="" height="185px">
+                <p>Mojari Jutti</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/692909952/photo/the-definition-of-dapper.jpg?s=612x612&w=0&k=20&c=md311IO8whIugmdlC0jp-0pu0zKbryx3OoEAhfJ0TkI=" alt="" height="185px">
+                <p>Grey Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/2148620079/photo/fashionable-handsome-hipster-man-in-stylish-clothes-with-hawaiian-shirt-t-shirt-and-hat.jpg?s=612x612&w=0&k=20&c=Feed_PtQnXzsUjhX_hEXtZgdHmNyHmIybbJQTIIjtT4=" alt="" height="185px">
+                <p>Summer Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkYlPMP9srXpsvgjVicZ4yPV5I1_KzLjG5ew&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1137699360/photo/panama-hat-on-white-background.jpg?s=612x612&w=0&k=20&c=86SpjebqXM5FtFVlYLpCu9g8RBaP9pOljTTb58hXP5c=" alt="" height="185px">
+                <p>White Hat</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ykVETfFjQAI5PCbEYhwfpK2aU7bjRJvw7w&s" alt="" height="185px">
+                <p>Jacket</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbWYld2HfaES6S3iy59ufLPIqfqrbr2pu8uA&s" alt="" height="185px">
+                <p>Jacket</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/116008663/photo/shop-window-clothes-for-men.jpg?s=612x612&w=0&k=20&c=9vuLk6DBp9oDw5OHKY0VDKOPtyFCBTKXcizXqXlZQr0=" alt="" height="185px">
+                <p>Casual Combo</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTgcF9Qlg5kGVKBrahXIgYMi10VXDfkb2Hg&s" alt="" height="185px">
+                <p>Korean style</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1727942420153-8573424d2a83?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fG1lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Denim Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNdmSAHalRQ4nlo-L-cgh8J0jc5K-wgFW3RQ&s" alt="" height="185px">
+                <p>White Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1656695839357-7574273288b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI4fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Summer Shirts</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1727942418440-d085b3b5f065?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMzfHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Denim Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1690366910824-ea406d0a61bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY5fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>White T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1586882829491-b81178aa622e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="185px">
+                <p>Casual Shoe</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1547597466-50406ff4f363?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjY2fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Denim Jean</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1631286964587-d0f26936b263?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM0fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Watch</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1631729670375-7b9bc6ba6c07?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzgyfHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Watch</p>
+            </div>
+            
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1674777843190-6f060a67db98?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDg1fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Casual Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1621383503718-2110734a6aff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDk4fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Summer Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1624835589323-442670703bc0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTMxfHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Casual Shirts</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1697731367218-5311c069484e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTM0fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Grey Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1642701777294-3e04972442d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTM4fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Denim Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1567443022715-0d7ad3a48a9b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njc0fHxtZW4lMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>White Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1671135590215-ded219822a44?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fG1lbnMlMjBmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px" width="200px">
+                <p>White Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1586882829491-b81178aa622e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fG1lbnMlMjBjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="" height="185px">
+                <p>Casual Shoe</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1265264693/photo/portrait-of-millennial-asian-male.webp?a=1&s=612x612&w=0&k=20&c=y2rHfIlWmCQHd7hso9ieGvnbb7EEGFRgoO1zCH4dENQ=" alt="" height="185px">
+                <p>Summer Style</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1733701621294-5ca3b00f3bd0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzIxfHxtZW5zJTIwY2xvdGhpbmd8ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Green T-Shirt</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1732139637068-41c50825dca1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzgwfHxtZW5zJTIwY2xvdGhpbmd8ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Stylish Glass</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1547809483-f9bb32b1cb49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA0fHxtZW5zJTIwY2xvdGhpbmclMjAxODV4MzAwfGVufDB8fDB8fHww" alt="" height="185px">
+                <p>White T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1169060144/photo/portrait-of-a-handsome-chinese-young-man-standing-and-looking-at-camera-with-one-leg-on-step.jpg?s=612x612&w=0&k=20&c=NZUKQss0LdTwVLY84q_tE5_apEF9XNuiVobNhYNMJm0=" alt="" height="185px">
+                <p>Denim Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1298804650/photo/portrait-of-a-young-asian-man-on-isolated-background.jpg?s=612x612&w=0&k=20&c=Znptbj-PRhCiYUNykCpZiTjTt-5u7ffWJuTGVE-E8Dw=" alt="" height="185px">
+                <p>Korean Jacket</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1392699566/photo/portrait-of-korean-asian-handsome-smile-friendly-business-model-man-in-pink-suit-sitting.jpg?s=612x612&w=0&k=20&c=02X3pvgkwtSB3tpssewe9LDPgZIS_fgkwGYDwiaHL-0=" alt="" height="185px">
+                <p>Korean Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1182564542/photo/portrait-of-a-young-confident-man.jpg?s=612x612&w=0&k=20&c=_WWbd4yBfvmCEO_-C5lIz4vW8HvyALVWkrQZLxiCQk8=" alt="" height="185px">
+                <p>Korean Black Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1151593743/photo/portrait-of-young-man-with-dark-grey-background.jpg?s=612x612&w=0&k=20&c=R733whibUuI3Z4lAW9R3YvckrDig1BZMw2fUJqohTbI=" alt="" height="185px">
+                <p>Korean Jacket</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1254250676/photo/good-looking-young-man-standing-on-the-street.jpg?s=612x612&w=0&k=20&c=YeJ7NOG_zIyQgLtVUy7kE2Vh2y4_KxXBSjHk9W1bN4k=" alt="" height="185px">
+                <p>Korean Jacket</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2xf5YhUbNUODdr8LA5U_Ct6OUfDYZnJxLmA&s" alt="" height="185px">
+                <p>Green Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIhI8yEFE_tqhHyNVQ1PQMhGiTGWOQeSPB0g&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS91TV1fZERFHjYxTtTDL7aaQmVecLyclB1bw&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZsUWY-nWuTBIscqsGKgQUA10qCZs1sS8xw&s" alt="" height="185px">
+                <p>Korean Style</p>
+            </div>
+
+            <!---------- Womens section -------------->
+
+
+
+            <span class="title-section" id="womens">
+                <h2>Women's Wear</h2>
+            </span>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1736342182213-6c037467cb38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" alt="" height="185px">
+                <p>Abaya Style</p>
+
+            </div>
+
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1689551670902-19b441a6afde?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29tYW58ZW58MHx8MHx8fDA%3D" alt="" height="185px" >
+                <p>White T-Shirt</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvbWFufGVufDB8fDB8fHww" alt=""  height="185px" >
+                <p>White Top</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt=""    height="185px">
+                <p>Trendy Women Suit</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1689575249162-beed0ac1f015?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="" height="185px">
+                <p>White T-Shirt</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1689977492903-bd8d201af5bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="" height="185px">
+                <p>Black Shirt</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1708363390856-172663a263d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="" height="185px">
+                <p>Women Suit</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1690406382767-16d27f2dfe44?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fHdvbWVuJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="" height="185px">
+                <p>White T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1690347838523-d35c74ccefb0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI3fHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Green T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1524498250077-390f9e378fc0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Leather Bag</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6umiCRYBcyq_uzFa2p6SZlpA0btbPrHuWw&s" alt="" height="185px">
+                <p>White T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1642290460481-76a5f2e18c3e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Black Hat</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1690341214258-18cb88438805?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc2fHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Hoodie</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1595464267511-59a77e806f78?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ0fHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Hat</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1690338235263-68f2c173b5cc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjYxfHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Casual T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/1137699360/photo/panama-hat-on-white-background.jpg?s=612x612&w=0&k=20&c=86SpjebqXM5FtFVlYLpCu9g8RBaP9pOljTTb58hXP5c=" alt="" height="185px">
+                <p>White Hat</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1754681496027-19fc0040f1f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzA1fHx3b21lbiUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Casual Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1509003124559-eb6678fe452b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHdvbWVuJTIwY2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D" alt="" height="185px">
+                <p>Denim Jean</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbHKyTaoVpHwF9XSa_8eGmtt-cPWbNJb6zg&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1618901185975-d59f7091bcfe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FyZWV8ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Saree</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1705909237050-7a7625b47fac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWNjZXNzb3J5fGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Leather Bag</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fGZhc2hpb258ZW58MHx8MHx8fDA%3D" alt="" height="185px">
+                <p>Summer Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1708274926468-f3ef322edffc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Casual Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjcqdZ7nVORbFSiiTMkyh1cfg_c9dMKm8fDA&s" alt="" height="185px">
+                <p>Black Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1551113006-731674fbb3ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE3fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Party Wear</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQyfHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Red T-Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1654764746242-7592b9c6ce2e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D" alt="" height="185px">
+                <p>Wedding Saree</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1551489186-ccb95a1ea6a3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcwfHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Formal Pant</p>
+            </div>
+            
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1538330627166-33d1908c210d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTk4fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Denim Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqFDkBcum45dXMUq1aI3995baxdNjy1R7z6A&s" alt="" height="185px">
+                <p>Function Wear</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1708110918897-ba34468dcedf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjc1fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Jacket</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1559127452-cb4ef7888fa1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjg5fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Black Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1647403784618-00ee7e4a705c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDY0fHx8ZW58MHx8fHx8" alt="" height="185px">
+                <p>Saree</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFn-_wn_XzFv8ZNVD-MhdhtOu7L2IXsZGSxg&s" alt="" height="185px">
+                <p>Korean Style</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJlK8xYtCsiq68xJ3DFkOs8e-Y6o_HhOSdQ&s" alt="" height="185px">
+                <p>Casual Shirt</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcD17GNVRA7j3Vsam8hK9N62OKCRCsPw2eQ&s" alt="" height="185px">
+                <p>Black Top</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Urpj7u6gBH6q0PWIC_ICzV7Ap5zIZi11NQ&s" alt="" height="185px">
+                <p>Korean Style</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1610189019389-975bbbc2f8f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fHNhcmVlfGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Saree</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1456421385613-d0666bb96b78?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzg3fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Summer Glass</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1630457497120-609b2a74578c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDgzfHx8ZW58MHx8fHx8" alt="" height="185px">
+                <p>Saree</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1696392322523-37379e6808ca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDcyfHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Denim Shitr</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1499939667766-4afceb292d05?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDY2fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Party Wear</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1589363360147-4f2d51541551?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDc0fHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8K83bNHmX2BRbFcam3BUrNHzrm2YR1qNUg&s" alt="" height="185px">
+                <p>Black Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://media.istockphoto.com/id/966489752/photo/young-woman-spinning-in-the-park.webp?a=1&s=612x612&w=0&k=20&c=q5WL_mQQgzoD_jDnFoMrB1ithI-OrJsLF2Cljn4GwcM=" alt="" height="185px">
+                <p>Women Top</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://plus.unsplash.com/premium_photo-1724762183473-5e79760ca3d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDk4fHx8ZW58MHx8fHx8" alt="" height="185px">
+                <p>Wedding Saree</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTYyfHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Summer Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1582657233895-0f37a3f150c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTcwfHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Casual Shoe</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1494578379344-d6c710782a3d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjEzfHxmYXNoaW9ufGVufDB8fDB8fHww" alt="" height="185px">
+                <p>Casual Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn7TdOb77z_DvYW5nnDruLeYUyFN3G0mn0vg&s" alt="" height="185px">
+                <p>Green Suit</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2eaievEXTeXFLG5HEtWqXh26xXMJDy9MTBw&s" alt="" height="185px">
+                <p>Black Clothes</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo-wH28hBFBegESLDs1cKKUeErOahHZxW5iw&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuMzQJ8jZXJSpGA6bmOkSoi4hrSf2XiGiCLA&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-E3bXuk2aIZj9JRb09xH6ELYCz_B4ISxSg&s" alt="" height="185px">
+                <p>White Shirt</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTZ_8re-XDNNhkBbMVM-NDYVbHot9yCgfB5w&s" alt="" height="185px">
+                <p>Casual Clothes</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFf5yoqBwqakiEUMOfbIYauG2v1IdRXgjplA&s" alt="" height="185px">
+                <p>Party Wear</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcf0fjkJBwgN4XxxZcnu-XizCxy2bsuUI1Hw&s" alt="" height="185px">
+                <p>Grey Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQHUkRt8pgylZ3jSZsjMQrPzPGmHkkDVfbJw&s" alt="" height="185px">
+                <p>Korean Style</p>
+            </div>
+
+            <!-- Combose -->
+
+
+            <span class="title-section" id="combo">
+                <h2>Combo dress</h2>
+            </span>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUtOHLg1RwAfymSixdpFSNoHMX_tUfcQXR0w&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXg_j3cZQlPPnGmK_8qqVun2E3DmScaH2Mew&s" alt="" height="185px">
+                <p>Korean Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQbMLswEuvS7gu0Wiy8TvQ4OSucM1cbZHgMg&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpJOWJzXGLI4FCjLOMNO7tIxBfsSDujSvUqw&s" alt="" height="185px">
+                <p>Wedding Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrNQX9nWGdxtk7YGL1L_DusYyENFQHzQ3TNw&s" alt="" height="185px">
+                <p>White Dress</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://cdn.shopify.com/s/files/1/0573/3144/9992/files/Screenshot_2025-05-16_133621.png?v=1747383092" alt="" height="185px" width="150px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://cdn.shopify.com/s/files/1/0573/3144/9992/files/2O2A9460_copy_4000x5824_1.jpg?v=1747303226" alt="" height="185px" width="150px">
+                <p>Black T-Shirt</p>
+            </div>
+            
+            
+            <div class="product-card">
+                <img src="https://cdn.shopify.com/s/files/1/0573/3144/9992/files/IMG_20241221_175017_900x_21f88c27-8039-4303-b011-207261d8eb2b.webp?v=1746119714" alt="" height="185px" width="150px">
+                <p>Casual Shirts</p>
+            </div>
+            
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2025/06/solo-shoot-25.jpg" alt="" height="185px" width="150px">
+                <p>Yellow Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2025/08/DSC2822.jpg" alt="" height="185px" width="150px">
+                <p>Green Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2024/12/20241220-_DSC8139.jpg" alt="" height="185px" width="150px">
+                <p>White Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2023/03/DSC09536.jpg" alt="" height="185px" width="150px">
+                <p>Pattern Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2025/02/untitled-11-of-37-1.jpg" alt="" height="185px" width="150px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2023/06/S-6.jpg" alt="" height="185px" width="150px">
+                <p>Freen Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ60iEJtE9DPo_sCELyruejm9R0xRZ5WSiapKdi5n_k4PNIG1lgGSge-2Y&s" alt="" height="185px">
+                <p>Wedding Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2022/08/0D3A0646.jpg" alt="" height="185px" width="150px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2024/10/20241024-_ASH6734-scaled.jpg" alt="" height="185px" width="150px">
+                <p>Black Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcPunrgN5tHDqrdPMsrqjMOmYy7lFBr9C78Cnzuq4N1-LdbAbAgpcdG_k&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2023/05/DSC2765-1.jpg" alt="" height="185px" width="150px">
+                <p>White Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://bunny-wp-pullzone-jyuzdgwwvu.b-cdn.net/wp-content/uploads/2021/07/untitled-7-2.jpg" alt="" height="185px" width="150px">
+                <p>Green Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRApL0idEixHqmMaQe34GRrRr7W6_uqGTT_QdKwcg1G1C9hG5sKWr_JX2Q&s" alt="" height="185px">
+                <p>Functional Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_2Ob6Gx2DdVphRNIwZP2PgbQcjqlNHTzqiV3mAEq49jhyn-GqIPIcOeA&s" alt="" height="185px">
+                <p>Functional Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP8fZqXGvqdWSOP8kfR9SiCzNqMRI2xhipUg&s" alt="" height="185px">
+                <p>Functional Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwkEWlNHUv7Ofmm93RWVt4WLMhZinPBNT9Q&s" alt="" height="185px">
+                <p>Rose Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6rgVnvlgbyK-jqB7GXO9j5sTMrWSAcJE8oQ&s" alt="" height="185px">
+                <p>Rose Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUL0cJ0LOrZNrf_0tcnzQwzVESYGXw6PrU_g&s" alt="" height="185px">
+                <p>Blue Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcQJrCHqX49J93B6d913GGQe6PD0FQ8kdSA&s" alt="" height="185px">
+                <p>Korean Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQA3Bc3iN-WbQn_YWp1NUeMLQ53pL2AN6fg&s" alt="" height="185px">
+                <p>Suits</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TRlFs_DQNqlRzASsmfWOl1xcmO9eAC0qWg&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+           
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkk_zgPkZII8X78Kg4HlfypGhoMw3H-_7NcQ&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcC91MlHfbgsCJxXmbhIrPou8n0fIMN4LYUQ&s" alt="" height="185px">
+                <p>Party Wear</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcjcJQeWyuRQ4EjvCsQzi-Z2idCPlod029cw&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_MoVSVPCHU5xOR9F0L0T6_BI-BZWph0v74Q&s" alt="" height="185px">
+                <p>Korean Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj_tBgF518Z4FC3YIZCABkZzN10Tn3lcTFvg&s" alt="" height="185px">
+                <p>Black Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNESS4njSk6puvdw39_ozycGCujcc9kl-NHw&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM9JDIyBZ2nTrlUnOSGcoEZPbKT8W8sE1hvA&s" alt="" height="185px">
+                <p>Korean Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUtOHLg1RwAfymSixdpFSNoHMX_tUfcQXR0w&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXg_j3cZQlPPnGmK_8qqVun2E3DmScaH2Mew&s" alt="" height="185px">
+                <p>Korean Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQbMLswEuvS7gu0Wiy8TvQ4OSucM1cbZHgMg&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpJOWJzXGLI4FCjLOMNO7tIxBfsSDujSvUqw&s" alt="" height="185px">
+                <p>Wedding Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStDOOfwYTpfagRCECvKG5ty11oGAd5rQqxHw&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrEkwmuApNdf1LAl2v8Z4RI2-XiD7Qnmm0Q&s" alt="" height="185px">
+                <p>Yellow Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVQZ4dz_mDXVOvarOKBrM0ym7HW6u8fOCrGg&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKqR0lqYP_uoHoBjH8TP02x2u4oMPhZ8LG-A&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqxhxfP4BL33EwRDqdtRN__JlX8iRN46N8Fw&s" alt="" height="185px">
+                <p>Suit</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzceTCsATZKiXxjtERlL25RlAQCxcRn-dF9GDLGmyPCJ1JTfB6LBlWDGd6cmLovYvhUI&usqp=CAU" alt="" height="185px">
+                <p>Wedding</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqLgKFR7pOQwN2gkqgjfJFiEZhMa8OveYd8A&s" alt="" height="185px">
+                <p>Combo Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRadn0rdrtOPrRzE_IuYscRp_-l0FxXMmWj5w&s" alt="" height="185px">
+                <p>Function Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkBa99gI2AA9ZmYzEXoEwBjUMkR6DGhonswYaPwat8JFbS998yWDkfMfqJgoruaO3r5x4&usqp=CAU" alt="" height="185px">
+                <p>Function Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg_8A3nuzaoWmUlyGQnq76x3A-QlZW2YonM0kcBJXz0TC-yjRxEhdutl_p38eK4u56ExY&usqp=CAU" alt="" height="185px">
+                <p>Korean Style</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5L_btTdWjbe8tspUjS4suo7rYUTYwbBIpg&s" alt="" height="185px">
+                <p>Casual Dress</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShy6t7LpddEbIZhCDbQ1SQsxEJwp4cmkNMG6jcrXmfBgPhlaG_KQSR1PbEI23zWeS1-P8&usqp=CAU" alt="" height="185px">
+                <p>Korean Style</p>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlks1UDa_nqqEckGGE3C_FVC3_ndvwQTMyA&s" alt="" height="185px">
+                <p>Black Dress</p>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2>ZYORA</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa molestias voluptatum aperiam qui.</p>
+
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+                    <h3>Contact Us</h3>
+                    <p>Email: zyorashopping@gmail.com
+                </div>
+            </div>
+        </div>
+
+        <p>@2024 ZYORA.com</p>
+    </footer>
+
+
+
+    <script src="./collection.js"></script>
+</body>
+</html>
+
+
+<!-- image size height-185px, width-300px -->
