@@ -1,8 +1,7 @@
 
-
 // console.log("start")
 
-//! setTimeout()
+                                        //  ! setTimeout()
 
 // setTimeout(() => {
    
@@ -19,7 +18,7 @@
 
 //  setTimeout(wish,6000)
 
-// !  setInterval()
+                                         // !  setInterval()
 
 // let sorry =()=>{
 //     console.log("I am sorry .. 🥲🥲🙏🙏🥲🥲")
@@ -33,7 +32,7 @@
 
 
 
-// !  clearTimeout()
+                                         // !  clearTimeout()
 
 
 // setTimeout(()=>{
